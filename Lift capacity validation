@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int weight;
+    printf("Enter total weight in lift: ");
+    scanf("%d", &weight);
+
+    if(weight <= 500)
+        printf("Lift is Safe\n");
+    else
+        printf("Overload! Do Not Enter\n");
+    return 0;
+}
